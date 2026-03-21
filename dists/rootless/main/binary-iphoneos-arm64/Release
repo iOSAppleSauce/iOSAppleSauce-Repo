@@ -1,0 +1,11 @@
+Origin: iOSAppleSauce
+Label: iOSAppleSauce Rootless
+Suite: rootless
+Codename: rootless
+Version: 1.0
+Architectures: iphoneos-arm64
+Components: main
+Description: iOSAppleSauce Rootless Repository for iOS 16+ (Dopamine)
+Date: Sat, 21 Mar 2026 18:10:49 +0000
+
+    Packages.gz

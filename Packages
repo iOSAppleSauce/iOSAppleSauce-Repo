@@ -1,0 +1,78 @@
+Package: com.iosapplesauce.rootless.fridamanager
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: iOSAppleSauce <iOSAppleSauce@pm.me>
+Installed-Size: 2256
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Conflicts: com.iosapplesauce.fridamanager
+Replaces: com.iosapplesauce.fridamanager
+Filename: debs/com.iosapplesauce.rootless.fridamanager_1.0.4_iphoneos-arm64.deb
+Size: 1892654
+MD5sum: ff9f41f8410792883e6d913ebc98049c
+SHA1: 36725bcc02a58b7b5d44de7ba55ca1a6b1e4e560
+SHA256: f835d8b3c75a5179c44651cb71e8c0138d08757dfcaddb7f48c52c417c967c9a
+Section: Tweaks
+Priority: optional
+Description: Control Center toggle and settings page for Frida server management. Start/stop frida-server with visual status indicators and easy configuration.
+Tag: purpose::extension, compatible::ios15, compatible::ios16
+Author: iOSAppleSauce
+Icon: https://codeberg.org/iOSAppleSauce/iOSAppleSauce-Repo/raw/branch/rootless/icons/FridaManager.png
+Name: FridaManager
+Sileodepiction: https://codeberg.org/iOSAppleSauce/iOSAppleSauce-Repo/raw/branch/rootless/depictions/com.iosapplesauce.rootless.fridamanager.json
+
+Package: com.iosapplesauce.rootless.kdeconnectdaemon
+Version: 1.0
+Architecture: arm64
+Maintainer: iOSAppleSauce
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.iosapplesauce.rootless.kdeconnectdaemon_1.0_iphoneos-arm64.deb
+Size: 597290
+MD5sum: 969cad2f310a32c45ca1b8eac3868b60
+SHA1: eb9e08ea9986b0a5e7aec60b01132d4c983682da
+SHA256: 6a35be99e282574677467885a7d7b748b38f58b97c46a31bad47d5d566f84700
+Section: Tweaks
+Description: Keeps KDE Connect alive in the background for continuous file transfers on iOS 16 Rootless (Dopamine).
+Name: KDEConnectDaemon
+
+Package: com.iosapplesauce.rootless.songshank
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: iOSAppleSauce <iOSAppleSauce@pm.me>
+Installed-Size: 792
+Depends: firmware (>= 15.0), ellekit
+Conflicts: com.iosapplesauce.songshank
+Replaces: com.iosapplesauce.songshank
+Filename: debs/com.iosapplesauce.rootless.songshank_1.0.0_iphoneos-arm64.deb
+Size: 439210
+MD5sum: 6ed0903a2ee8ffed8554710a5d54859e
+SHA1: e099cdf2bf5c5862d7659e4212e1ace657c79587
+SHA256: bb2694ca4f7877406ee9748aded970b033f0a635b7e40e5adfe7d737d64c42e9
+Section: Tweaks
+Priority: optional
+Description: Zero-tap instantly flips copied/shared music links into multi-platform links directly into the clipboard. Transform Spotify, Apple Music, YouTube Music, Tidal, and Deezer links seamlessly.
+Tag: purpose::extension, compatible::ios15, compatible::ios16
+Author: iOSAppleSauce
+Icon: https://codeberg.org/iOSAppleSauce/repo/raw/branch/rootless/icons/SongShankMaster.png
+Name: SongShank
+Sileodepiction: https://codeberg.org/iOSAppleSauce/repo/raw/branch/rootless/depictions/com.iosapplesauce.rootless.songshank.json
+
+Package: com.iosapplesauce.rootless.trustanchor
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: iOSAppleSauce
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Conflicts: com.iosapplesauce.trustanchor
+Replaces: com.iosapplesauce.trustanchor
+Filename: debs/com.iosapplesauce.rootless.trustanchor_1.0.2_iphoneos-arm64.deb
+Size: 1882210
+MD5sum: 8286cfeb05142d90c1f8a9043f19ed6e
+SHA1: f946c941648b73493f908022f36c32180daaefab
+SHA256: d3f2894a9e9e290ea267152068c15a3e1367659ebc669dcc53f794efee179458
+Section: Tweaks
+Description: Permanently enable trusting developer certificates with Trust and Trust Forever buttons. Includes Settings page to manage trusted certificates.
+Tag: purpose::extension
+Author: iOSAppleSauce
+Icon: https://codeberg.org/iOSAppleSauce/iOSAppleSauce-Repo/raw/branch/rootless/icons/TrustAnchor.png
+Name: TrustAnchor
+Sileodepiction: https://codeberg.org/iOSAppleSauce/iOSAppleSauce-Repo/raw/branch/rootless/depictions/com.iosapplesauce.rootless.trustanchor.json
+
